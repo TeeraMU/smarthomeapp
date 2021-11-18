@@ -18,8 +18,9 @@ public class TuyaSmartApp extends Application {
         TuyaHomeSdk.setOnNeedLoginListener(new INeedLoginListener() {
             @Override
             public void onNeedLogin(Context context) {
-                startActivity(new Intent(TuyaSmartApp.this, MainActivity.class));
+//                startActivity(new Intent(TuyaSmartApp.this, MainActivity.class));
             }
         });
+
     }
 }

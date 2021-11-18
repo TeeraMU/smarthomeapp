@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="country_code">Country Code</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="loginBtn">Login</string>
+    <string name="regisTextView">New User? Register Now!</string>
+    <string name="regisVerify">Verification Code</string>
+    <string name="regisOTP">Get OTP</string>
+    <string name="regisSignUp">Sign Up</string>
 </resources>

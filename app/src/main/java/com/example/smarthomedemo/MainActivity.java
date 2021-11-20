@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onError(String code, String error) {
             //TODO: Error check when login failed
-            Log.d(TAG, "Registration error code : " + error);
+            Log.d(TAG, "Login error code : " + error);
             Toast.makeText(MainActivity.this, "Failed Login!", Toast.LENGTH_LONG).show();
         }
     };

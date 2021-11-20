@@ -6,7 +6,8 @@
         <entry key="..\:/SmartHomeApplicationDemo/Android/app/src/main/res/drawable/round_bg.xml" value="0.403125" />
         <entry key="..\:/SmartHomeApplicationDemo/Android/app/src/main/res/drawable/round_border.xml" value="0.403125" />
         <entry key="..\:/SmartHomeApplicationDemo/Android/app/src/main/res/drawable/round_border_regis.xml" value="0.2947916666666667" />
-        <entry key="..\:/SmartHomeApplicationDemo/Android/app/src/main/res/layout/activity_home.xml" value="0.25" />
+        <entry key="..\:/SmartHomeApplicationDemo/Android/app/src/main/res/layout/activity_device_bulb_controller.xml" value="0.275" />
+        <entry key="..\:/SmartHomeApplicationDemo/Android/app/src/main/res/layout/activity_home.xml" value="0.33" />
         <entry key="..\:/SmartHomeApplicationDemo/Android/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/SmartHomeApplicationDemo/Android/app/src/main/res/layout/activity_registration.xml" value="0.2786458333333333" />
       </map>

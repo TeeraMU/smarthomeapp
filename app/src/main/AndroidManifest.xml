@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.smarthomedemo">
 
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+
     <application
         android:name=".TuyaSmartApp"
         android:allowBackup="false"
@@ -11,9 +16,11 @@
         android:supportsRtl="false"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".DeviceBulbController"
+            android:exported="true" />
+        <activity
             android:name=".RegistrationActivity"
             android:exported="true" />
-
         <activity
             android:name=".HomeActivity"
             android:exported="true" />

@@ -37,3 +37,18 @@
 
 -keep class com.tuya.**{*;}
 -dontwarn com.tuya.**
+
+##rx
+#-dontwarn rx.**
+#-keep class rx.** {*;}
+#-keep class io.reactivex.**{*;}
+#-dontwarn io.reactivex.**
+#-keep class rx.**{ *; }
+#-keep class rx.android.**{*;}
+
+##fresco
+#-keep class com.facebook.drawee.backends.pipeline.Fresco
+#-keep @com.facebook.common.internal.DoNotStrip class *
+#-keepclassmembers class * {
+#@com.facebook.common.internal.DoNotStrip *;
+#}

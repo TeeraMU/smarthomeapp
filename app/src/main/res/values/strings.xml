@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Smart Appliances Application</string>
     <string name="country_code">Country Code</string>
     <string name="email">Email</string>
     <string name="password">Password</string>

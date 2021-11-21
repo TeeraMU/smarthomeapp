@@ -17,7 +17,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.15" >
+        app:layout_constraintVertical_bias="0.15">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -80,10 +80,34 @@
         android:id="@+id/btnSearchDevice"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="300dp"
         android:text="Search Devices"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cvDevice"
+        app:layout_constraintVertical_bias="0.643" />
+
+    <EditText
+        android:id="@+id/etWifiId"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:hint="WIFI SSID"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cvDevice" />
+
+    <EditText
+        android:id="@+id/etWifiPass"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="WIFI Password"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etWifiId" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -18,6 +18,8 @@ allprojects {
     repositories {
         mavenCentral()
         jcenter()
+//        maven { url 'https://maven-other.tuya.com/repository/maven-releases/' }
+//        maven { url 'https://jitpack.io' }
     }
 }
 

@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.smarthomedemo">
 
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"></uses-permission>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
         android:name=".TuyaSmartApp"
@@ -15,6 +17,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="false"
         android:theme="@style/Theme.MyApplication">
+        <meta-data
+            android:name="TUYA_SMART_APPKEY"
+            android:value="hghwjpwdhfhhd8agttv5" />
+        <meta-data
+            android:name="TUYA_SMART_SECRET"
+            android:value="8pe9nxrt4n7r7qxpvwxedaktd948vekf" />
         <activity
             android:name=".DeviceBulbController"
             android:exported="true" />
@@ -24,14 +32,6 @@
         <activity
             android:name=".HomeActivity"
             android:exported="true" />
-
-        <meta-data
-            android:name="TUYA_SMART_APPKEY"
-            android:value="hghwjpwdhfhhd8agttv5" />
-        <meta-data
-            android:name="TUYA_SMART_SECRET"
-            android:value="8pe9nxrt4n7r7qxpvwxedaktd948vekf" />
-
         <activity
             android:name=".MainActivity"
             android:exported="true">
